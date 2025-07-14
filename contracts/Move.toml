@@ -1,0 +1,16 @@
+[package]
+name = "the-crowds"
+version = "1.0.0"
+authors = []
+
+[addresses]
+the_crowds_addr='3ff8dead1be6af4cc683bcd6b920a72ded110943064541f70b3930fc5dc4b521'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
